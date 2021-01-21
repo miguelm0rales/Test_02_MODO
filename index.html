@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            body{
+                margin:0px;
+                padding:0px;
+                overflow:hidden;
+            }
+            .botones{
+              position:absolute;
+              bottom: 7%;
+              width: 40%;
+              left:50%;
+              transform: translateX(-50%);
+              display: flex;
+              justify-content: center;
+
+
+            }
+        </style>
+        <link rel="stylesheet" href="./Boton.css">
+
+        <script src='https://unpkg.com/three@0.122.0/build/three.min.js'></script>
+        <script src='https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar.js'></script>
+    </head>
+    <body>
+        <script type="module" src="script.js"></script>
+
+        <div class="botones">
+            <a id="btn1"href="#" class="Boton effect3">
+              <i class="label">↔</i>
+            </a>
+
+            <a id="btn2"href="#" class="Boton effect3">
+              <i class="label">↑</i>
+            </a>
+
+            <a id="btn3"href="#" class="Boton effect3">
+              <i class="label">↓</i>
+            </a>
+
+      </div>
+
+    </body>
+</html>
